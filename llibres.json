@@ -1,0 +1,36 @@
+{
+  "books": [
+    {
+      "book": {
+        "title": "Book_Title_1",
+        "cover": "Book_Cover_1.jpg",
+        "year": 2001,
+        "pages": 350
+      }
+    },
+    {
+      "book": {
+        "title": "Book_Title_2",
+        "cover": "Book_Cover_2.jpg",
+        "year": 2002,
+        "pages": 400
+      }
+    },
+    {
+      "book": {
+        "title": "Book_Title_3",
+        "cover": "Book_Cover_3.jpg",
+        "year": 2003,
+        "pages": 450
+      }
+    },
+    {
+      "book": {
+        "title": "Book_Title_4",
+        "cover": "Book_Cover_4.jpg",
+        "year": 2004,
+        "pages": 500
+      }
+    }
+  ]
+}
