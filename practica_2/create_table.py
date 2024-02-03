@@ -7,7 +7,7 @@ sql = ''' CREATE TABLE vehicles(
             vehicle_pes INT NOT NULL,
             vehicle_marca VARCHAR(255) NOT NULL,
             vehicle_color VARCHAR(255) NOT NULL,
-            vechicle_model VARCHAR(255) NOT NULL
+            vehicle_model VARCHAR(255) NOT NULL
 )'''
 
 print(sql)
