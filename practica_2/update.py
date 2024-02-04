@@ -1,11 +1,12 @@
 #AQUEST ARXIU ACTUALITZA UN VALOR 
 from conn import *
 
-sql = """ UPDATE public.vehicles SET vehicle_model='CBR600RR' WHERE vehicle_id=1
-"""
+def update():
+    sql_read = """ UPDATE public.vehicles SET vehicle_model='CBR600RR' WHERE vehicle_id=1
+    """
 
-connection.execute(sql)
-conn.commit()
-result = connection.rowcount
+    connection.execute(sql_read)
+    conn.commit()
+    result = connection.rowcount
 
-print("ID modificada: ", result, "Actualització efectuada correctament.")
+    print("ID modificada: ", result, "Actualització efectuada correctament.")

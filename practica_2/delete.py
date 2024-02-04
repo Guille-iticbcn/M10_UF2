@@ -1,8 +1,9 @@
 #AQUEST ARXIU ELIMINA UNA CONSULTA DE LA TAULA
 from conn import *
 
-sql = """ DELETE FROM public.vehicles WHERE vehicle_id=1
-"""
+def delete():
+    sql_delete = """ DELETE FROM public.vehicles WHERE vehicle_id=1
+    """
 
-connection.execute(sql)
-conn.commit()
+    connection.execute(sql_delete)
+    conn.commit()
